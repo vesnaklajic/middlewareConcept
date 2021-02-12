@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-function info(rea,res,next){
+function info(req,res,next){
 console.log("Its working");
 next();
 
